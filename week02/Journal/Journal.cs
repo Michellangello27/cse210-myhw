@@ -1,5 +1,6 @@
 public class Journal
 {
+  
     public List<Entry>_entries;
     public string file ="Journal.txt";
 
@@ -16,6 +17,7 @@ public class Journal
 
     }
 
+  
     public void LoadFromFile(string file)
     {
 
